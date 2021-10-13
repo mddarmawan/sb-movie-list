@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import MovieList from '../components/MovieList';
 
 // eslint-disable-next-line jest/no-mocks-import
-import '../__mocks__/intersectionObserverMock';
+import './__mocks__/intersectionObserverMock';
 
 test('renders correct search input', () => {
   render(<MovieList />);
