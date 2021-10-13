@@ -64,9 +64,7 @@ This is an application as an assignment task for Stockbit.
 
 1. Clone this repository
 
-### API Preparation
-
-1. Navigate to the application folder and run this command to install the application's packages:
+2. Navigate to the application folder and run this command to install the application's packages:
 
 ```bash
 npm install
