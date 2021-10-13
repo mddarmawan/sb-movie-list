@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+<p align="center" width="100%">
+    <img width="33%" src="https://user-images.githubusercontent.com/22543134/137140015-70814627-c53c-4a33-9b02-5a97a658e619.png">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie Search Application
 
-## Available Scripts
+This is an application as an assignment task for Stockbit.
 
-In the project directory, you can run:
+## Directory Structure
 
-### `yarn start`
+    .
+    ├── public                       # Folder that holds all public-related files
+    ├── src
+    │   ├── components
+    │   │   ├── App.tsx              # Application wrapper
+    │   │   ├── BackButton.tsx       # Component that used to go back to the root of the site
+    │   │   ├── index.d.ts           # Types declaration
+    │   │   ├── MovieCard.tsx        # Component that used to render movie in card layout
+    │   │   ├── MovieDetail.tsx      # Component that used to render movie's detail
+    │   │   ├── MovieList.tsx        # Component that used to render movies' list
+    │   │   └── MovieSingle.tsx      # Component that used to render movie with its ID
+    │   ├── tests
+    │   │   ├── __mocks__            # Folder that holds some custom Jest's mock functions
+    │   │   ├── MovieCard.test.tsx   # Unit test for MovieCard component
+    │   │   ├── MovieDetail.test.tsx # Unit test for MovieDetail component
+    │   │   └── MovieList.test.tsx   # Unit test for MovieList component
+    │   ├── helper.ts                # Helper functions that will be used
+    │   ├── index.css
+    │   ├── logo.svg
+    │   ├── react-app-env.d.ts
+    │   ├── reportWebVitals.ts
+    │   └── setupTests.ts
+    ├── .gitignore
+    ├── craco.config.js
+    ├── package.json
+    ├── README.md
+    ├── tailwind.config.js
+    ├── tsconfig.json
+    └── yarn.lock
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requirements
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node v14 or above
+- npm v7 or above or yarn v1.22 (yarn preferred)
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository
 
-### `yarn build`
+### API Preparation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Navigate to the application folder and run this command to install the application's packages:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or
 
-### `yarn eject`
+```bash
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Run this command to start the application:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+or
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+yarn start
+```
 
-## Learn More
+3. The application is served to `http://127.0.0.1:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT](https://choosealicense.com/licenses/mit/)
