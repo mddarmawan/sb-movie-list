@@ -8,6 +8,21 @@ This is an application as an assignment task for Stockbit.
 
 [Demo](https://sb-movie-list.vercel.app/)
 
+## Task List
+
+- [x] Display list of movies
+- [x] Use infinite scroll when result > 5
+- [x] Search movies by keyword
+- [x] Single page for single movie detail
+- [x] Show movie poster in a popup modal window when image from the list is clicked
+- [ ] Autocomplete searchbox implementation (optional, -time)
+- [x] ReactJS
+- [ ] Redux (-time)
+- [x] Axios
+- [x] Test Cases
+- [x] React Hooks
+- [x] Documentation
+
 ## Directory Structure
 
     .
