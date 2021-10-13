@@ -6,6 +6,8 @@
 
 This is an application as an assignment task for Stockbit.
 
+[Demo](https://sb-movie-list.vercel.app/)
+
 ## Directory Structure
 
     .
